@@ -1,0 +1,28 @@
+{
+  "name": "npmpack",
+  "version": "1.0.0",
+  "description": "A library to colorify console logs",
+  "main": "lib/index.js",
+  "types" : "lib/index.d.ts"
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishal-03/npmPack.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Vishal Choudhary <codewithblaze@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishal-03/npmPack/issues"
+  },
+  "homepage": "https://github.com/Vishal-03/npmPack#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
